@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    background-color: #151515;
+    margin: 0px;
+}
+
+#result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.all-questions {
+    color: #fafafa;
+}
+
+.all-questions h1 {
+    font-size: 40px;
+    color: rgb(255, 29, 240);
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', cursive;
+}
+
+.all-questions p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #fafafa;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reset-btn {
+    color: #fafafa;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-color: rgb(255, 29, 240);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.reset-btn:hover {
+    border-color: red;
+}
+
+.all-questions-targets {
+    margin-top: 50px;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+    .all-questions {
+        margin: 0px 10px;
+    }
+    
+}
+    
