@@ -1,8 +1,10 @@
 import data from "./data"
 import Question from "./components/Question"
+import { useState } from "react";
 
 const App = () => {
-
+  const [numbers, setNumbers] = useState(randomNum(5));
+  
   function randomNum(numberLength) {
     const maxNumber = data.length;
     let numbers = [];
@@ -23,7 +25,7 @@ const App = () => {
         <p>Táto stránku slúži ako opakovanie na maturitnú skúšku. Ak ma chceš podporiť <a href="https://ko-fi.com/tom4sko" target="_blanc" className="link">klikni sem.</a></p>
       <div className="all-questions-targets">
       {
-        randomNum(5).map( (numberLength) => {
+        numbers.map( (numberLength) => {
           const element = data[numberLength];
           return (
             <Question key={element.id} {...element}/>
@@ -33,7 +35,7 @@ const App = () => {
       </div>
       
       <div className="buttons">
-        <button type="button" className="reset-btn" onClick={() => window.location.reload(true)}>Refresh</button>
+        <button type="button" className="reset-btn" onClick={() => setNumbers(randomNum(5))}>Refresh</button>
       </div>
     </div>
   )
