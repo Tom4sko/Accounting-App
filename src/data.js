@@ -117,7 +117,7 @@ const data = [
     {
         id: 23,
         title: "VPD - Výplata preddavkov na mzdy cl. družstva",
-        info: "MD 366 | D 221",
+        info: "MD 366 | D 211",
     },
     {
         id: 24,
