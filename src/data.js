@@ -1,7 +1,7 @@
 const data = [
     {
         id: 0,
-        title: "VBU - Zúčtkovanie s orgánmi ZP a SP",
+        title: "VBU - Zúčtovanie s orgánmi ZP a SP",
         info: "MD 336 | D 221",
         },
     {
@@ -31,7 +31,7 @@ const data = [
     },
     {
         id: 6,
-        title: "VPD - Obstaranie DHM za hotové",
+        title: "VPD - Obstaranie DHM v hotovosti",
         info: "MD 042 | D 211",
     },
     {
@@ -91,7 +91,7 @@ const data = [
     },
     {
         id: 18,
-        title: "VBU - Úhrada faktúry vydaná, odberateľská, odoslaná",
+        title: "VBU - Inkaso faktúry od odberateľa",
         info: "MD 221 | D 311",
     },
     {
@@ -122,7 +122,7 @@ const data = [
     {
         id: 24,
         title: "ZVL - Hrubé mzdy členov družstva",
-        info: "MD 522 | D 336",
+        info: "MD 522 | D 366",
     },
     {
         id: 25,
@@ -141,7 +141,7 @@ const data = [
     },
     {
         id: 28,
-        title: "ZVL - Dávky dočasnej práceneschopnosti",
+        title: "ZVL - Dávky dočasnej práceneschopnosti pre spoločníka",
         info: "MD 527 | D 366",
     },
     {
@@ -161,7 +161,7 @@ const data = [
     },
     {
         id: 32,
-        title: "VPD - Výplata vyúčtovania miez",
+        title: "VPD - Výplata vyúčtovania miezd",
         info: "MD 366 | D 211",
     },
     {
