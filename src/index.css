@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 body {
     background-color: #151515;
@@ -11,7 +11,7 @@ body {
     justify-content: center;
     height: auto;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 .all-questions {
@@ -20,14 +20,21 @@ body {
 
 .all-questions h1 {
     font-size: 40px;
-    color: rgb(255, 29, 240);
+    color: #217131;
     letter-spacing: 1px;
-    font-family: 'Josefin Sans', cursive;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.header p {
+    text-align: center;
 }
 
 .all-questions p {
-    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
     letter-spacing: 1px;
+    font-size: 15px;
     color: #fafafa;
 }
 
@@ -38,28 +45,49 @@ body {
 }
 
 .reset-btn {
-    color: #fafafa;
-    background-color: transparent;
-    padding: 5px 10px;
-    border-color: rgb(255, 29, 240);
+    color: #030c05;
+    background: #217131;
+    padding: 10px 15px;
+    border-radius: 7px;
     margin-top: 20px;
     margin-bottom: 40px;
     cursor: pointer;
-    font-size: 22px;
-    letter-spacing: 1px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    font-family: 'Nunito', sans-serif;
 }
 
 .reset-btn:hover {
-    border-color: red;
+    background: #11481d;
+}
+
+.reset-btn .reload-icon {
+    font-size: 20px;
 }
 
 .all-questions-targets {
     margin-top: 50px;
 }
 
-.link {
-    color: red;
-    text-decoration: none;
+.contact {
+    background-color: #212020;
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact a {
+  margin: 5px 10px;
+  color: #42b37a;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.contact a:hover {
+    color: #11481d;
 }
 
 @media screen and (max-width: 750px) {
@@ -68,4 +96,3 @@ body {
     }
     
 }
-    
