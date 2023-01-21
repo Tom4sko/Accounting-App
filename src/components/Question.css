@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 .one-question {
-    box-shadow: 0px 0px 10px rgb(255, 29, 240);
+    background-color: #212020;
+    border-radius: 7px;
     width: 800px;
     margin-bottom: 20px;
     padding: 10px;
-    scroll-behavior: smooth;
+    height: 75px;
+    overflow: hidden;
+    transition: height 1s;
 }
 
 .one-question section {
@@ -17,27 +22,48 @@
     font-weight: 400;
     letter-spacing: 1px;
     margin-left: 15px;
+    font-size: 20px;
+    height: 50px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .one-question button {
     height: 40px;
     margin-right: 15px;
-    color: #fafafa;
-    background-color: transparent;
-    border-color: rgb(255, 29, 240);
+    margin-left: 10px;
+    background: #217131;
+    outline: none;
+    border: none;
+    border-radius: 7px;
     padding: 5px 10px;
     font-size: 18px;
     cursor: pointer;
 }
 
 .one-question button:hover {
-    border-color: red;
+    background: #11481d;
+}
+
+.one-question .my-icon {
+    font-size: 20px;
+    color: #030c05;
 }
 
 .one-question p {
+    width: 90%;
     margin: 0px 15px 10px;
-    color: rgb(255, 29, 240);
-    font-size: 30px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #5c4b4b;
+    color: #217131;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+}
+
+.one-question.show {
+    height: 150px;
 }
 
 /* Scrollbar */
@@ -53,7 +79,7 @@
 
  
   ::-webkit-scrollbar-thumb {
-    background: rgb(255, 29, 240);
+    background: #217131;
     border-radius: 10px;
   }
 
@@ -88,6 +114,27 @@
 
     .one-question p {
         font-size: 15px;
+        width: 85%;
+    }
+
+    .one-question.show {
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .one-question p {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .one-question p {
+        width: 77%;
+    }
+
+    .one-question.show {
+        height: 120px;
     }
 }
 
@@ -102,5 +149,12 @@
 
     .one-question p {
         font-size: 12px;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .one-question p {
+        width: 70%;
     }
 }
