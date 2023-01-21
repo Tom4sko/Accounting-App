@@ -38,6 +38,9 @@
     padding: 5px 10px;
     font-size: 18px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .one-question button:hover {
