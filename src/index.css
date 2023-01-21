@@ -56,6 +56,9 @@ body {
     outline: none;
     border: none;
     font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .reset-btn:hover {
@@ -94,5 +97,4 @@ body {
     .all-questions {
         margin: 0px 10px;
     }
-    
 }
