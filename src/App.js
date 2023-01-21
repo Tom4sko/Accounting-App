@@ -23,7 +23,7 @@ const App = () => {
     <div className="all-questions">
       <div className="header">
         <h1>Predkontácie</h1>
-        <p>Táto stránku slúži ako opakovanie na maturitnú skúšku. Pre pridanie predkontácii ma kontaktujte.</p>
+        <p>Táto stránka slúži ako opakovanie na maturitnú skúšku. Pre pridanie predkontácii ma kontaktujte.</p>
       </div>
 
       <div className="all-questions-targets">
