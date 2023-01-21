@@ -1,17 +1,18 @@
 import "./Question.css"
 import { useState } from "react"
+import { BiPlus } from "react-icons/bi";
 
 
 const Question = ({title, info}) => {
     const [show, setShow] = useState(false)
    
     return (
-        <div className="one-question">
+        <div className={"one-question " + (show ? "show" : "")}  >
             <section>
                 <h2>{title}</h2>
-                <button type="button" className="btn" onClick={() => setShow(!show)}>Answer</button>
+                <button type="button" className="btn" onClick={() => setShow(!show)}> <BiPlus className="my-icon"/></button>
             </section>
-            {show && <p>{info}</p>}
+            <p>{info}</p>
 
         </div>
     )
