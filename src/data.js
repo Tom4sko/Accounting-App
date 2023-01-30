@@ -253,7 +253,7 @@ const data = [
         id: 50,
         title: "VBU - Prijatý preddavok od odberateľa",
         info: "MD 221 | D 324",
-    },
+    }
 ]
 
 export default data;
