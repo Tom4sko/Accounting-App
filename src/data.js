@@ -196,7 +196,7 @@ const data = [
     },
     {
         id: 39,
-        title: "VBÚ - Poskytnutý preddavok na nákup dlhodobého hmotného majetku",
+        title: "VBU - Poskytnutý preddavok na nákup dlhodobého hmotného majetku",
         info: "MD 052 | D 221",
     },
     {
@@ -231,7 +231,7 @@ const data = [
     },
     {
         id: 46,
-        title: "VKdBÚv - Uhráda prijatej faktúry z krátkodobého bankového úveru",
+        title: "VKdBUv - Uhráda prijatej faktúry z krátkodobého bankového úveru",
         info: "MD 321 | D 231",
     },
     {
