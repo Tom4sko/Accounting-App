@@ -58,7 +58,7 @@ const App = () => {
   return (
     <div className="all-questions">
       <div className="header">
-        <h1>Predkontácie</h1>
+        <h1>Predkontacie.eu</h1>
         <form>
           <input type="text" placeholder="Search..." onChange={ (event) => setSearch(event.target.value)}></input>
         </form>
