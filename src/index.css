@@ -19,7 +19,7 @@ body {
 }
 
 .all-questions h1 {
-    font-size: 40px;
+    font-size: 80px;
     color: #217131;
     letter-spacing: 1px;
     font-family: 'Nunito', sans-serif;
@@ -35,6 +35,7 @@ body {
 }
 
 .header input {
+    width: 500px;
     margin-top: 25px;
     background-color: #212020;
     border: none;
@@ -104,5 +105,43 @@ body {
 @media screen and (max-width: 750px) {
     .all-questions {
         margin: 0px 10px;
+    }
+
+    .all-questions h1 {
+        font-size: 60px;
+    }
+
+    .header input {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .all-questions h1 {
+        font-size: 50px;
+    }
+
+    .header input {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .all-questions h1 {
+        font-size: 40px;
+    }
+
+    .header input {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .all-questions h1 {
+        font-size: 30px;
+    }
+
+    .header input {
+        width: 200px;
     }
 }
