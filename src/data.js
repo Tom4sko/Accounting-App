@@ -254,6 +254,256 @@ const data = [
         title: "VBU - Prijatý preddavok od odberateľa",
         info: "MD 221 | D 324",
     },
+    {
+        id: 51,
+        title: "PPD - Nedoručené mzdy zamestnancov vrátené poštou alebo bankou",
+        info: "MD 211 | D 331",
+    },
+    {
+        id: 52,
+        title: "VPD - Zákonne povinné sociálne náklady platené v hotovosti",
+        info: "MD 527 | D 211",
+    },
+    {
+        id: 53,
+        title: "VPD - Dobrovoľné sociálne náklady platené v hotovosti",
+        info: "MD 528 | D 211",
+    },
+    {
+        id: 54,
+        title: "VBU - Inkaso pohľadávok od orgánov zdravotného a sociálneho poistenia",
+        info: "MD 221 | D 336",
+    },
+    {
+        id: 55,
+        title: "ID - Zúčtovanie dávky nemocenského poistenia/sociálnej dávky",
+        info: "MD 336 | D 331",
+    },
+    {
+        id: 56,
+        title: "ID - Tvorba nároku na vrátenie mzdy spoločníkom/členom družstva",
+        info: "MD 366 | D 522",
+    },
+    {
+        id: 57,
+        title: "ID - Príspevok do (štátneho) garančného fondu",
+        info: "MD 524 | D 379",
+    },
+    {
+        id: 59,
+        title: "ID - Predpis na doplnkové dôchodkové sporenie",
+        info: "MD 525 | D 336",
+    },
+    {
+        id: 60,
+        title: "ID - Stravné lístky zrazené zamestnancovi zo mzdy",
+        info: "MD 521 | D 213",
+    },
+    {
+        id: 61,
+        title: "VBU - Poskytnutý preddavok na nákup cenných papierov",
+        info: "MD 053 | D 221",
+    },
+    {
+        id: 62,
+        title: "ID - Chyba účtovania - Prebytky materiálu na sklade zistené pri inventarizácii",
+        info: "MD 112 | D 501",
+    },
+    {
+        id: 63,
+        title: "ID - Spotreba materiálu vo výrobe",
+        info: "MD 501 | D 112",
+    },
+    {
+        id: 64,
+        title: "ID - Tovar použitý na zhotovenie reklamy vo vlastnej réžii",
+        info: "MD 501 | D 132",
+    },
+    {
+        id: 65,
+        title: "ID - DPH vyrubená colným orgánom pri dovoze tovaru",
+        info: "MD 343 | D 379",
+    },
+    {
+        id: 66,
+        title: "ID - Dodatočné vyrubenie daní za minulé obdobia, ak nemožno zvýšiť hodnotu dlhodobého majetku",
+        info: "MD 538 | D 343",
+    },
+    {
+        id: 67,
+        title: "VFA - Predaj aktivovaných nákladov na vývoj",
+        info: "MD 311 | D 641",
+    },
+    {
+        id: 68,
+        title: "VFA - Predaj vlastneného softvéru (zaradeného do DM)",
+        info: "MD 311 | D 641",
+    },
+    {
+        id: 69,
+        title: "ID - Otvorenie nového roka - zaúčtovanie začiatočného stavu (311 Odberatelia)",
+        info: "MD 311 | D 701",
+    },
+    {
+        id: 70,
+        title: "VFA - Tržby z predaja tovaru",
+        info: "MD 311 | D 604",
+    },
+    {
+        id: 71,
+        title: "VFA - Tržby z poskytnutých služieb",
+        info: "MD 311 | D 602",
+    },
+    {
+        id: 72,
+        title: "VFA - Vyúčtovanie paušálov na záručné opravy",
+        info: "MD 311 | D 384",
+    },
+    {
+        id: 73,
+        title: "VFA -Tržby z pradaja materiálu",
+        info: "MD 311 | D 642",
+    },
+    {
+        id: 74,
+        title: "VFA - Výnosy z predaja cenných papierov a podielov",
+        info: "MD 311 | D 661",
+    },
+    {
+        id: 75,
+        title: "VFA - Predplatné fakturované odberateľovi",
+        info: "MD 311 | D 384",
+    },
+    {
+        id: 76,
+        title: "PFA - Nákup dlhodobého nehmotného materiálu",
+        info: "MD 041 | D 321",
+    },
+    {
+        id: 77,
+        title: "DO - Zaúčtovanie dobropisu v prípade, že faktúra nebola uhradená",
+        info: "MD 321 | D 041",
+    },
+    {
+        id: 78,
+        title: "DO - Zaúčtovanie dobropisu v prípade, že faktúra bola uhradená",
+        info: "MD 315 | D 041",
+    },
+    {
+        id: 79,
+        title: "PPD - Inkaso pohľadávky voči zamestnancovi za zavinenú škodu na majetku",
+        info: "MD 211 | D 335",
+    },
+    {
+        id: 80,
+        title: "PPD - Dodatočné inkaso náhrady za zavinenú škodu na majetku",
+        info: "MD 211 | D 648",
+    },
+   /*  {
+        id: 81,
+        title: "PPD - Inkaso náhrady - značná suma (??? [pozn. hotelovka])",
+        info: "MD 211 | D 428",
+    },
+    {
+        id: 82,
+        title: "PPD - Inkaso náhrady - malá suma (??? [pozn. hotelovka])",
+        info: "MD 211 | D 538",
+    }, */
+    {
+        id: 83,
+        title: "VPD - Poplatky platené v hotovosti",
+        info: "MD 538 | D 211",
+    },
+    {
+        id: 84,
+        title: "ID - Predpis pokút a penále od zdravotných poisťovní",
+        info: "MD 545 | D 336",
+    },
+    {
+        id: 85,
+        title: "ID - Predpis pokút a penále za znečistenie ovzdušia",
+        info: "MD 545 | D 345",
+    },
+    {
+        id: 86,
+        title: "ID - Predpis sankcie pri nesprávnom použití dotácie",
+        info: "MD 545 | D 345",
+    },
+    {
+        id: 87,
+        title: "ID - Manko na materiáli nad normu prirodzených úbytkov (zavinené)",
+        info: "MD 549 | D 112",
+    },
+    {
+        id: 88,
+        title: "ID - Manko na polotovaroch vlastnej výroby nad normu prirodzených úbytkov (zavinené)",
+        info: "MD 549 | D 122",
+    },
+    {
+        id: 89,
+        title: "ID - Manko na výrobkoch vlastnej výroby nad normu prirodzených úbytkov (zavinené)",
+        info: "MD 549 | D 123",
+    },
+    {
+        id: 90,
+        title: "ID - Manko na tovare nad normu prirodzených úbytkov (zavinené)",
+        info: "MD 549 | D 132",
+    },
+    {
+        id: 91,
+        title: "ID - Prevod konečného zostatku pri účtovnej uzávierke (549 - Manká a škody)",
+        info: "MD 710 | D 549",
+    }, 
+    {
+        id: 92,
+        title: "ID - Bezodplatný prevod pozemku, na ktorý účtovná jednotka nie je povinná (považuje sa za darovanie)",
+        info: "MD 543 | D 031",
+    }, 
+    {
+        id: 93,
+        title: "ID - Bezodplatný prevod obstarávaného dlhodobého finančného majetku (považuje sa za darovanie)",
+        info: "MD 543 | D 031",
+    }, 
+    {
+        id: 94,
+        title: "ID - Darovanie materiálu",
+        info: "MD 543 | D 112",
+    },
+    {
+        id: 95,
+        title: "ID - Darovanie tovaru",
+        info: "MD 543 | D 132",
+    },
+    {
+        id: 96,
+        title: "VPD - Poskytnutý peňažný dar v hotovosti",
+        info: "MD 543 | D 211",
+    },
+    {
+        id: 97,
+        title: "VBU - Poskytnuté peňažné dary",
+        info: "MD 543 | D 221",
+    },
+    {
+        id: 98,
+        title: "PFA - Faktúra za prijaté dary",
+        info: "MD 543 | D 321",
+    },
+    {
+        id: 98,
+        title: "ID - Zriadenie strážneho psa vo vlastnej réžii",
+        info: "MD 624 | D 124",
+    },
+    {
+        id: 99,
+        title: "VPFA - Výroba DHM vlastnou činnosťou",
+        info: "MD 042 | D 624",
+    },
+    {
+        id: 100,
+        title: "ID - Zvýšenie ceny DHM na základe znaleckého posudku",
+        info: "MD 042 | D 624",
+    },
 ]
 
 export default data
