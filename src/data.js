@@ -503,7 +503,7 @@ const data = [
         id: 100,
         title: "ID - Zvýšenie ceny DHM na základe znaleckého posudku",
         info: "MD 042 | D 624",
-    },
+    }
 ]
 
 export default data;
