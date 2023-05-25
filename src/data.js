@@ -505,5 +505,4 @@ const data = [
         info: "MD 042 | D 624",
     },
 ]
-
 export default data
